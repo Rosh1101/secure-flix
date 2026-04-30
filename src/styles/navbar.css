@@ -1,0 +1,20 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  background: rgba(0,0,0,0.7);
+}
+
+.nav-links span {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.search {
+  padding: 8px;
+  border: none;
+  outline: none;
+}

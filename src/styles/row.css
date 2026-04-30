@@ -1,0 +1,21 @@
+.row {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.row-posters {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.poster {
+  width: 200px;
+  height: 120px;
+  object-fit: cover;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+.poster:hover {
+  transform: scale(1.1);
+}

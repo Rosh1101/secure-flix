@@ -1,0 +1,19 @@
+.banner {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+  background: url("https://images.unsplash.com/photo-1518770660439-4636190af475") no-repeat center center/cover;
+}
+
+.banner h1 {
+  font-size: 3rem;
+}
+
+.banner button {
+  width: 120px;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
